@@ -1,0 +1,229 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0e14d4aa-2dd0-4b28-ae35-43afd1798b30")
+	(paper "A4")
+	(title_block
+		(title "ThingsCore-1")
+		(date "2025-07-17")
+		(rev "1")
+	)
+	(lib_symbols)
+	(sheet
+		(at 148.59 110.49)
+		(size 22.86 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "267ac8b4-2fbe-40eb-923c-c5006fb00720")
+		(property "Sheetname" "DDR3"
+			(at 148.59 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DDR3.kicad_sch"
+			(at 148.59 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ThingsCore-1"
+				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 110.49)
+		(size 22.86 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "992f1809-ba75-41aa-9652-2a2392b25d6d")
+		(property "Sheetname" "ETHERNET"
+			(at 106.68 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ETHERNET.kicad_sch"
+			(at 106.68 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ThingsCore-1"
+				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 74.93)
+		(size 22.86 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9e1ac92c-1110-47b2-92db-1d7d73994e33")
+		(property "Sheetname" "POWER"
+			(at 69.85 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER.kicad_sch"
+			(at 69.85 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ThingsCore-1"
+				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 110.49)
+		(size 22.86 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a1d67319-dddf-4864-9176-ade099aa73c3")
+		(property "Sheetname" "MPU-IO"
+			(at 69.85 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IO.kicad_sch"
+			(at 69.85 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ThingsCore-1"
+				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 149.86 74.93)
+		(size 22.86 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d807da36-b407-4754-85a6-ddc433365c5d")
+		(property "Sheetname" "MEMORY"
+			(at 149.86 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MEMORY.kicad_sch"
+			(at 149.86 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ThingsCore-1"
+				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
