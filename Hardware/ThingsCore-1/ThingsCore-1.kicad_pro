@@ -123,7 +123,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1,
+        "min_clearance": 0.09,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
@@ -196,7 +196,7 @@
           "max_amplitude": 1.0,
           "min_amplitude": 0.2,
           "single_sided": false,
-          "spacing": 0.25
+          "spacing": 0.4
         },
         "diff_pair_skew_defaults": {
           "corner_radius_percentage": 80,
@@ -204,7 +204,7 @@
           "max_amplitude": 1.0,
           "min_amplitude": 0.2,
           "single_sided": false,
-          "spacing": 0.25
+          "spacing": 0.4
         },
         "single_track_defaults": {
           "corner_radius_percentage": 80,
@@ -212,7 +212,7 @@
           "max_amplitude": 1.0,
           "min_amplitude": 0.2,
           "single_sided": false,
-          "spacing": 0.25
+          "spacing": 0.4
         }
       },
       "via_dimensions": [
@@ -493,7 +493,7 @@
         "microvia_diameter": 0.45,
         "microvia_drill": 0.3,
         "name": "TB_100R_DIFF",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 0, 0)",
         "priority": 0,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.1217,
@@ -505,7 +505,7 @@
         "microvia_diameter": 0.45,
         "microvia_drill": 0.3,
         "name": "TB_50R_SE",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 153, 0)",
         "priority": 1,
         "schematic_color": "rgb(255, 153, 0)",
         "track_width": 0.1565,

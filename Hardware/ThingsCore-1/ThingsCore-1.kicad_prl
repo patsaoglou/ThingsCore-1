@@ -1,11 +1,12 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 6,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [
       "Default",
-      "TB_100R_DIFF"
+      "TB_100R_DIFF",
+      "TB_50R_SE"
     ],
     "hidden_nets": [
       "",
@@ -73,8 +74,6 @@
       "/POWER/VDD3V3_USBHS",
       "/POWER/VBAT",
       "/MPU-IO/PWR_ON",
-      "/DDR3/DDR_CLK_N",
-      "/DDR3/DDR_CLK_P",
       "/DDR3/DDR_D1",
       "/DDR3/DDR_D13",
       "/DDR3/DDR_D6",
@@ -86,7 +85,6 @@
       "unconnected-(U2-NC_1{slash}ODT1-PadJ1)",
       "/DDR3/DDR_D0",
       "/DDR3/DDR_DQS0P",
-      "/DDR3/DDR_CSN",
       "/DDR3/DDR_DQM1",
       "/DDR3/DDR_D10",
       "/DDR3/DDR_D12",
@@ -319,7 +317,7 @@
       "pads": true,
       "text": false,
       "tracks": true,
-      "vias": false,
+      "vias": true,
       "zones": false
     },
     "visible_items": [
