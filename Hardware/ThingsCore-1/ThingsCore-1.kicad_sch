@@ -68,7 +68,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "992f1809-ba75-41aa-9652-2a2392b25d6d")
-		(property "Sheetname" "ETHERNET"
+		(property "Sheetname" "Networking"
 			(at 106.68 109.7784 0)
 			(effects
 				(font

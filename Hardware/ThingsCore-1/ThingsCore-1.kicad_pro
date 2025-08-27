@@ -136,7 +136,7 @@
         "min_text_height": 1.0,
         "min_text_thickness": 0.153,
         "min_through_hole_diameter": 0.15,
-        "min_track_width": 0.1,
+        "min_track_width": 0.09,
         "min_via_annular_width": 0.075,
         "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.05,
@@ -196,7 +196,7 @@
           "max_amplitude": 1.0,
           "min_amplitude": 0.2,
           "single_sided": false,
-          "spacing": 0.4
+          "spacing": 0.7
         },
         "diff_pair_skew_defaults": {
           "corner_radius_percentage": 80,
@@ -212,7 +212,7 @@
           "max_amplitude": 1.0,
           "min_amplitude": 0.2,
           "single_sided": false,
-          "spacing": 0.4
+          "spacing": 0.25
         }
       },
       "via_dimensions": [
@@ -453,6 +453,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -473,7 +474,7 @@
         "clearance": 0.09,
         "diff_pair_gap": 0.3,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.3,
+        "diff_pair_width": 0.1,
         "line_style": 0,
         "microvia_diameter": 0.45,
         "microvia_drill": 0.3,
@@ -481,7 +482,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.1,
         "via_diameter": 0.45,
         "via_drill": 0.3,
         "wire_width": 6
@@ -582,10 +583,10 @@
         "TB_50R_SE"
       ],
       "/DDR3/DDR_CLK_N": [
-        "TB_100R_DIFF"
+        "Default"
       ],
       "/DDR3/DDR_CLK_P": [
-        "TB_100R_DIFF"
+        "Default"
       ],
       "/DDR3/DDR_CSN": [
         "TB_50R_SE"
@@ -645,16 +646,16 @@
         "TB_50R_SE"
       ],
       "/DDR3/DDR_DQS0N": [
-        "TB_100R_DIFF"
+        "Default"
       ],
       "/DDR3/DDR_DQS0P": [
-        "TB_100R_DIFF"
+        "Default"
       ],
       "/DDR3/DDR_DQS1N": [
-        "TB_100R_DIFF"
+        "Default"
       ],
       "/DDR3/DDR_DQS1P": [
-        "TB_100R_DIFF"
+        "Default"
       ],
       "/DDR3/DDR_ODT": [
         "TB_50R_SE"
@@ -672,16 +673,7 @@
         "TB_50R_SE"
       ]
     },
-    "netclass_patterns": [
-      {
-        "netclass": "TB_100R_DIFF",
-        "pattern": "/DDR3/DDR_CLK_N"
-      },
-      {
-        "netclass": "TB_100R_DIFF",
-        "pattern": "/DDR3/DDR_CLK_P"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -841,7 +833,7 @@
     ],
     [
       "992f1809-ba75-41aa-9652-2a2392b25d6d",
-      "ETHERNET"
+      "Networking"
     ],
     [
       "a1d67319-dddf-4864-9176-ade099aa73c3",
