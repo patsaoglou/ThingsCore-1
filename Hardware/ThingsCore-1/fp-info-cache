@@ -1,4 +1,4 @@
-26438529320374013
+26445555930615992
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -103985,12 +103985,26 @@ Integrated Circuit
 96
 96
 ThingsCore-1
+BGA153C50P14X14_1300X1150X100
+
+
+0
+153
+153
+ThingsCore-1
 LFBGA-289_14x14mm_Layout17x17_P0.8mm
 LFBGA-289, 14.0x14.0mm, 289 Ball, 17x17 Layout, 0.8mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.st.com/resource/en/datasheet/stm32mp131c.pdf
 BGA 289 0.8
 0
 289
 289
+ThingsCore-1
+L_0805_2016
+Inductor, Murata, DFE201610P, 2.0x1.6x1.0mm, (https://www.murata.com/~/media/webrenewal/products/inductor/chip/tokoproducts/wirewoundmetalalloychiptype/m_dfe201610p.ashx), generated with kicad-footprint-generator gen_inductor.py
+power chip flatwire
+0
+2
+2
 ThingsCore-1
 Logo
 
@@ -104010,8 +104024,15 @@ QFN40P400X400X90-33N-D
 QFN32_
 Integrated Circuit
 0
+49
 33
-33
+ThingsCore-1
+RESCAXS50P400X160X55-16N
+
+
+0
+16
+16
 ThingsCore-1
 SON127P800X600X80-9N-D
 W25Q256JVEIQ
@@ -104021,6 +104042,13 @@ Integrated Circuit
 9
 ThingsCore-1
 TF-PUSH
+
+
+0
+13
+13
+ThingsCore-1
+TF-SMD_TF-123-ARP9H15
 
 
 0

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 0.24,
+          "width": 0.24
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -671,6 +671,18 @@
       ],
       "/DDR3/ZQ": [
         "TB_50R_SE"
+      ],
+      "RXN": [
+        "TB_100R_DIFF"
+      ],
+      "RXP": [
+        "TB_100R_DIFF"
+      ],
+      "TXN": [
+        "TB_100R_DIFF"
+      ],
+      "TXP": [
+        "TB_100R_DIFF"
       ]
     },
     "netclass_patterns": []
@@ -833,7 +845,7 @@
     ],
     [
       "992f1809-ba75-41aa-9652-2a2392b25d6d",
-      "Networking"
+      "NETWORKING"
     ],
     [
       "a1d67319-dddf-4864-9176-ade099aa73c3",
