@@ -273,554 +273,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Pack02_Split"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RN"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Pack02_Split"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "2 resistor network, parallel topology, split"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R network parallel topology isolated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Pack02_Split_0_1"
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Pack02_Split_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "R1.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "R1.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Pack02_Split_2_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "R2.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "R2.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R_Pack08_Split"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RN"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Pack08_Split"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "8 resistor network, parallel topology, split"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R network parallel topology isolated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Pack08_Split_0_1"
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Pack08_Split_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "R1.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "R1.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Pack08_Split_2_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "R2.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "R2.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Pack08_Split_3_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "R3.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "R3.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Pack08_Split_4_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "R4.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "R4.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Pack08_Split_5_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "R5.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "R5.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Pack08_Split_6_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "R6.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "R6.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Pack08_Split_7_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "R7.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "R7.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_Pack08_Split_8_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "R8.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "R8.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ThingsCore-1:EMMC04G-M627-A01"
 			(pin_names
 				(offset 1.016)
@@ -2345,7 +1797,7 @@
 	)
 	(rectangle
 		(start 71.12 48.26)
-		(end 168.91 115.57)
+		(end 201.93 115.57)
 		(stroke
 			(width 1.016)
 			(type dash)
@@ -2422,7 +1874,7 @@
 		(uuid "f0b3cfcd-b969-42d2-ae82-3b5a64cc0b3b")
 	)
 	(junction
-		(at 137.16 64.77)
+		(at 170.18 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2468b8af-6f9e-4b55-a800-d9b38eed03cf")
@@ -2446,7 +1898,7 @@
 		(uuid "3fef3bbf-5f17-48d5-9ac3-a8f962f3e8ea")
 	)
 	(junction
-		(at 151.13 77.47)
+		(at 184.15 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4056e05c-db53-4560-acef-9d1d8e7aa912")
@@ -2500,13 +1952,13 @@
 		(uuid "99fb2373-5368-47c5-be89-d9ec24f25fff")
 	)
 	(junction
-		(at 110.49 82.55)
+		(at 143.51 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c8e8f26-20e2-4ad3-bbf8-ac491698ae01")
 	)
 	(junction
-		(at 127 64.77)
+		(at 160.02 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5572aba-0ce3-4893-ae33-f4ff4f3e768d")
@@ -2574,7 +2026,7 @@
 		(uuid "4557d8b0-1bc8-4a05-b50a-aefab18c6876")
 	)
 	(no_connect
-		(at 129.54 106.68)
+		(at 162.56 104.14)
 		(uuid "600386d4-7547-4aa6-a5b3-bcfc752a79d0")
 	)
 	(bus_entry
@@ -2598,16 +2050,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 232.41) (xy 304.8 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04e154ca-8fde-4072-9e6d-739c929a7497")
-	)
-	(wire
-		(pts
 			(xy 152.4 223.52) (xy 152.4 226.06)
 		)
 		(stroke
@@ -2628,16 +2070,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 229.87) (xy 304.8 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "086065ef-aa8f-4c06-9e7b-8dabb1bf74e1")
-	)
-	(wire
-		(pts
 			(xy 247.65 92.71) (xy 247.65 95.25)
 		)
 		(stroke
@@ -2648,23 +2080,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 82.55) (xy 110.49 82.55)
+			(xy 110.49 80.01) (xy 143.51 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0e67bf23-1ceb-4a9b-a08b-9d99e94c4508")
-	)
-	(wire
-		(pts
-			(xy 317.5 219.71) (xy 304.8 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1028f7f2-6168-4640-8c24-ebd99c1a435c")
 	)
 	(wire
 		(pts
@@ -2688,7 +2110,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 106.68) (xy 127 109.22)
+			(xy 160.02 104.14) (xy 160.02 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2718,17 +2140,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 90.17) (xy 113.03 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1982ecee-88ee-4657-80d4-deb4ddad2961")
-	)
-	(wire
-		(pts
-			(xy 110.49 69.85) (xy 110.49 72.39)
+			(xy 143.51 67.31) (xy 143.51 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2745,26 +2157,6 @@
 			(type default)
 		)
 		(uuid "1bcdbb20-0b0e-4f69-b7a7-be06119afa8b")
-	)
-	(wire
-		(pts
-			(xy 304.8 234.95) (xy 317.5 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dc039de-f5f3-4454-8952-7df35f9941ba")
-	)
-	(wire
-		(pts
-			(xy 254 87.63) (xy 266.7 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dda7503-b060-4d9e-8543-b6e0b0f63985")
 	)
 	(wire
 		(pts
@@ -2858,16 +2250,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 214.63) (xy 304.8 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b37f5e4-fefa-419a-809a-6bc9b259de95")
-	)
-	(wire
-		(pts
 			(xy 266.7 196.85) (xy 295.91 196.85)
 		)
 		(stroke
@@ -2878,23 +2260,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 64.77) (xy 127 74.93)
+			(xy 160.02 62.23) (xy 160.02 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2bb5c184-a0eb-4e65-a33a-86c4f921ee20")
-	)
-	(wire
-		(pts
-			(xy 317.5 222.25) (xy 304.8 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f796670-31d0-4cce-88e7-bc58a7cc6b8f")
 	)
 	(wire
 		(pts
@@ -2908,23 +2280,23 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 82.55) (xy 113.03 82.55)
+			(xy 110.49 92.71) (xy 146.05 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3321fd55-5557-4ffa-a7ae-c3f96b062cd8")
+	)
+	(wire
+		(pts
+			(xy 143.51 80.01) (xy 146.05 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "34a0b128-a297-4681-ba1f-cdbb375f0cf0")
-	)
-	(wire
-		(pts
-			(xy 99.06 87.63) (xy 113.03 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34d906ac-e3b8-459e-9623-a9209d2bbf18")
 	)
 	(wire
 		(pts
@@ -2938,23 +2310,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 92.71) (xy 113.03 92.71)
+			(xy 110.49 85.09) (xy 146.05 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b130807-2550-46ed-82aa-44a224bf618d")
-	)
-	(wire
-		(pts
-			(xy 304.8 237.49) (xy 317.5 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ba8435e-6005-4e2f-9ef1-9af828b7794c")
+		(uuid "3a092873-eb19-4511-9b5f-892413cf6989")
 	)
 	(wire
 		(pts
@@ -2988,7 +2350,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 77.47) (xy 151.13 77.47)
+			(xy 170.18 74.93) (xy 184.15 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3148,16 +2510,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 227.33) (xy 304.8 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e863eab-5316-4dd7-881b-50125644622b")
-	)
-	(wire
-		(pts
 			(xy 317.5 189.23) (xy 303.53 189.23)
 		)
 		(stroke
@@ -3288,7 +2640,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 220.98) (xy 95.25 220.98)
+			(xy 102.87 220.98) (xy 116.84 220.98)
 		)
 		(stroke
 			(width 0)
@@ -3308,7 +2660,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 63.5) (xy 127 64.77)
+			(xy 160.02 60.96) (xy 160.02 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3368,7 +2720,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 64.77) (xy 137.16 64.77)
+			(xy 110.49 90.17) (xy 146.05 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c586f15-5ae3-4ac1-a206-9801260b24b1")
+	)
+	(wire
+		(pts
+			(xy 160.02 62.23) (xy 170.18 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3385,16 +2747,6 @@
 			(type default)
 		)
 		(uuid "8324209c-40d3-42b9-b164-4be416b173d3")
-	)
-	(wire
-		(pts
-			(xy 102.87 220.98) (xy 116.84 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83c168ef-307f-4567-a233-eec6c1955070")
 	)
 	(wire
 		(pts
@@ -3425,16 +2777,6 @@
 			(type default)
 		)
 		(uuid "8a3dc7fd-fb1f-4e9b-b202-922f38b80c7d")
-	)
-	(wire
-		(pts
-			(xy 317.5 224.79) (xy 304.8 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8aa7a7ef-de04-4a65-aa1f-f59964662c49")
 	)
 	(wire
 		(pts
@@ -3488,7 +2830,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 64.77) (xy 137.16 67.31)
+			(xy 170.18 62.23) (xy 170.18 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3568,7 +2910,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 64.77) (xy 151.13 64.77)
+			(xy 170.18 62.23) (xy 184.15 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3588,7 +2930,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 64.77) (xy 151.13 67.31)
+			(xy 184.15 62.23) (xy 184.15 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3658,6 +3000,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 87.63) (xy 266.7 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af5cf2bf-6a47-4a9a-b2b1-e35023357ef5")
+	)
+	(wire
+		(pts
 			(xy 228.6 85.09) (xy 246.38 85.09)
 		)
 		(stroke
@@ -3665,26 +3017,6 @@
 			(type default)
 		)
 		(uuid "afd8ec2a-a410-4c83-8a8c-1beed17e6ee2")
-	)
-	(wire
-		(pts
-			(xy 99.06 95.25) (xy 113.03 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1d48a95-03ca-4b5b-bcf4-7167e0d0597b")
-	)
-	(wire
-		(pts
-			(xy 317.5 217.17) (xy 304.8 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4209554-ec3c-462f-9da3-d943ff42127a")
 	)
 	(wire
 		(pts
@@ -3718,7 +3050,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 78.74) (xy 151.13 77.47)
+			(xy 184.15 76.2) (xy 184.15 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3738,7 +3070,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 74.93) (xy 151.13 77.47)
+			(xy 184.15 72.39) (xy 184.15 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3758,7 +3090,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 74.93) (xy 137.16 77.47)
+			(xy 170.18 72.39) (xy 170.18 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3828,7 +3160,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 85.09) (xy 113.03 85.09)
+			(xy 132.08 82.55) (xy 146.05 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3918,6 +3250,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 87.63) (xy 146.05 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee1e149a-cc2e-4a3c-86aa-21c00c91b337")
+	)
+	(wire
+		(pts
 			(xy 114.3 223.52) (xy 116.84 223.52)
 		)
 		(stroke
@@ -3958,7 +3300,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 80.01) (xy 110.49 82.55)
+			(xy 143.51 77.47) (xy 143.51 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3978,7 +3320,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 85.09) (xy 91.44 85.09)
+			(xy 110.49 82.55) (xy 124.46 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3986,8 +3328,18 @@
 		)
 		(uuid "f9eca65a-0d26-4864-b461-895e2b3d25f0")
 	)
+	(label "EMMC_CLK"
+		(at 255.27 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01e9361f-de93-444f-9d88-9f0a13c1ed20")
+	)
 	(label "QSPI1_CLK"
-		(at 77.47 85.09 0)
+		(at 110.49 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3995,16 +3347,6 @@
 			(justify left bottom)
 		)
 		(uuid "04a23852-4d4e-437c-ba6b-9b4c5737c6df")
-	)
-	(label "EMMC_D7"
-		(at 254 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "076089b3-80ad-4b8f-a81a-7790d03b18d3")
 	)
 	(label "SD_D2"
 		(at 102.87 210.82 0)
@@ -4015,16 +3357,6 @@
 			(justify left bottom)
 		)
 		(uuid "077f3e98-fdcc-4823-b39a-a945279df90c")
-	)
-	(label "EMMC_D4"
-		(at 317.5 224.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "081da80e-dab9-47d2-b64c-9fa5a16dae9e")
 	)
 	(label "SD_D3"
 		(at 317.5 194.31 180)
@@ -4046,6 +3378,16 @@
 		)
 		(uuid "0b0daff5-9dc9-4be6-902e-bfbd9a8dae50")
 	)
+	(label "MMC2_D0"
+		(at 254 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e0597f5-c9f2-47f6-bd38-5e800601bd13")
+	)
 	(label "SD_D0"
 		(at 102.87 226.06 0)
 		(effects
@@ -4057,7 +3399,7 @@
 		(uuid "0eda08f5-abfc-4ba9-a91e-91f88308892d")
 	)
 	(label "SD_CLK"
-		(at 80.01 220.98 0)
+		(at 102.87 220.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4077,7 +3419,7 @@
 		(uuid "0feaac16-7fcf-4639-8ecc-262df3112062")
 	)
 	(label "QSPI1_~{CS}"
-		(at 99.06 82.55 0)
+		(at 132.08 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4087,7 +3429,7 @@
 		(uuid "113adf34-8901-44d6-8647-fdcb07f0431e")
 	)
 	(label "QSPI1_D2"
-		(at 99.06 92.71 0)
+		(at 132.08 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4095,16 +3437,6 @@
 			(justify left bottom)
 		)
 		(uuid "1228b80a-79e9-4e46-b11f-07cffd5a94e2")
-	)
-	(label "EMMC_CLK"
-		(at 228.6 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "13d9f6b8-5a70-4323-9f82-9a5d3d503704")
 	)
 	(label "SD_CMD"
 		(at 317.5 196.85 180)
@@ -4126,7 +3458,7 @@
 		)
 		(uuid "1675b42a-22f9-4001-a8bc-1240e72a2e17")
 	)
-	(label "EMMC_D1"
+	(label "MMC2_D1"
 		(at 254 95.25 0)
 		(effects
 			(font
@@ -4134,27 +3466,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "17931e2b-8b7f-4f72-8db6-9a5674ecaded")
-	)
-	(label "EMMC_D0"
-		(at 317.5 214.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1b9f9f05-4d6b-4c41-840d-d8bc79f8c01d")
-	)
-	(label "EMMC_CLK"
-		(at 317.5 237.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "246e00f7-049a-48f8-8c61-f03249062adf")
+		(uuid "25210510-c919-49da-b723-884ef1c51dd7")
 	)
 	(label "MMC2_D0"
 		(at 267.97 214.63 0)
@@ -4177,7 +3489,7 @@
 		(uuid "2f6a2cda-6537-449c-a56a-6e54a60bb587")
 	)
 	(label "QSPI1_D1"
-		(at 99.06 90.17 0)
+		(at 132.08 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4226,8 +3538,18 @@
 		)
 		(uuid "402a1f26-0beb-481f-b809-ab7a803b4ab6")
 	)
+	(label "MMC2_CLK"
+		(at 228.6 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "406c23e0-4ef7-488a-8e80-a63f83eefa00")
+	)
 	(label "QSPI1_D0"
-		(at 99.06 87.63 0)
+		(at 132.08 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4256,6 +3578,16 @@
 		)
 		(uuid "5dbe28cb-0139-4542-a39e-db3432bf7361")
 	)
+	(label "MMC2_D6"
+		(at 254 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e7627c8-d0a9-4e3c-b267-1d1a8f88b8cc")
+	)
 	(label "NRST"
 		(at 228.6 85.09 0)
 		(effects
@@ -4266,16 +3598,6 @@
 		)
 		(uuid "5f6f27e4-6d93-41c0-adfc-f3a06bf58d0b")
 	)
-	(label "EMMC_D5"
-		(at 254 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6001eec5-1da8-4f7b-9e7a-996cc44b59db")
-	)
 	(label "MMC2_CMD"
 		(at 267.97 234.95 0)
 		(effects
@@ -4285,16 +3607,6 @@
 			(justify left bottom)
 		)
 		(uuid "637f6411-83c9-4a59-9192-0854b3fe21d9")
-	)
-	(label "EMMC_CMD"
-		(at 318.77 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "65361f88-5c33-4498-b02e-1d063a46bf09")
 	)
 	(label "SD_D2"
 		(at 317.5 191.77 180)
@@ -4316,6 +3628,16 @@
 		)
 		(uuid "6c5d175b-ebe2-4535-a5a8-1f7d1ae57009")
 	)
+	(label "MMC2_D4"
+		(at 254 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7045f73b-7f27-4fba-a523-c766215678a9")
+	)
 	(label "MMC2_D6"
 		(at 267.97 229.87 0)
 		(effects
@@ -4326,18 +3648,8 @@
 		)
 		(uuid "717c081c-3e3c-4452-bdae-10420d0c015d")
 	)
-	(label "EMMC_D6"
-		(at 254 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "740647fc-d7a8-46e4-8798-f6cf9b498064")
-	)
 	(label "QSPI1_D3"
-		(at 99.06 95.25 0)
+		(at 132.08 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4345,26 +3657,6 @@
 			(justify left bottom)
 		)
 		(uuid "785996f9-6bd9-4e6c-b423-77ee9af69d53")
-	)
-	(label "SD_CLK_SD"
-		(at 102.87 220.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "820d9e28-fd6d-4a5a-8334-1d021fc3373c")
-	)
-	(label "EMMC_D1"
-		(at 317.5 217.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "86effc49-f8a7-4904-9d70-8bd17c5bb52c")
 	)
 	(label "SD_D3"
 		(at 102.87 213.36 0)
@@ -4376,28 +3668,8 @@
 		)
 		(uuid "9313482d-9925-429d-92a0-e4086dee99ac")
 	)
-	(label "EMMC_D3"
-		(at 254 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "93448cbe-d15b-4af7-8f30-db60b1fa35fb")
-	)
-	(label "EMMC_CLK_M6"
-		(at 254 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "941f303b-11e0-43d1-a78d-39dc11f729c9")
-	)
 	(label "QSPI1_CLK_NOR"
-		(at 99.06 85.09 0)
+		(at 132.08 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4406,17 +3678,7 @@
 		)
 		(uuid "9cea75ea-3db4-4069-998e-96bf5f78e2bb")
 	)
-	(label "EMMC_D2"
-		(at 317.5 219.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a0269155-2811-45da-9dd8-481273742c41")
-	)
-	(label "EMMC_D2"
+	(label "MMC2_D2"
 		(at 254 97.79 0)
 		(effects
 			(font
@@ -4424,7 +3686,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a9b629fb-15f8-470d-b1e0-50d2d2700750")
+		(uuid "aef54dd3-e7ee-477a-8ab8-df33706bd638")
 	)
 	(label "MMC2_D5"
 		(at 267.97 227.33 0)
@@ -4436,6 +3698,16 @@
 		)
 		(uuid "b63bc778-8b85-4d60-8ad2-e49ec7243989")
 	)
+	(label "MMC2_D3"
+		(at 254 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b649575e-c680-4359-be62-8f8e1c373bae")
+	)
 	(label "VDDI"
 		(at 311.15 80.01 0)
 		(effects
@@ -4445,26 +3717,6 @@
 			(justify left bottom)
 		)
 		(uuid "c1e72b78-3c67-47a8-a852-668e91f918c6")
-	)
-	(label "EMMC_D0"
-		(at 254 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c50595c5-0f1a-4446-b5b6-d1e491f1a339")
-	)
-	(label "EMMC_D3"
-		(at 317.5 222.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c57824f3-e011-4271-bbe1-cb41ec7d2964")
 	)
 	(label "MMC2_CLK"
 		(at 267.97 237.49 0)
@@ -4476,25 +3728,25 @@
 		)
 		(uuid "c77f84ee-4eab-400f-abe8-27ecb0490431")
 	)
-	(label "EMMC_D7"
-		(at 317.5 232.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d56ad6ba-8133-4192-b2bd-c962427ad52a")
-	)
-	(label "EMMC_D4"
-		(at 254 102.87 0)
+	(label "MMC2_D5"
+		(at 254 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "dfc1d89c-13ae-404f-91c7-20594baff1a5")
+		(uuid "dc27b4ea-a4b6-40d7-8cb4-dc27b731ed8a")
+	)
+	(label "MMC2_D7"
+		(at 254 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df5556cb-d4d0-4c3d-9a40-fee5d95d24e2")
 	)
 	(label "SD_CMD"
 		(at 102.87 215.9 0)
@@ -4505,26 +3757,6 @@
 			(justify left bottom)
 		)
 		(uuid "e0795ddc-c281-4082-8769-98ccee4d0a66")
-	)
-	(label "EMMC_D5"
-		(at 317.5 227.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e10789d1-3e9f-42eb-95a8-3b10e92e3d48")
-	)
-	(label "EMMC_CMD"
-		(at 317.5 234.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e815518a-aeae-4f2e-ae8b-82dc7c7481ad")
 	)
 	(label "MMC2_D3"
 		(at 266.7 194.31 0)
@@ -4545,6 +3777,16 @@
 			(justify left bottom)
 		)
 		(uuid "ef2524bf-5f15-40e5-b189-53b91cd8a67e")
+	)
+	(label "MMC2_CMD"
+		(at 318.77 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f19a9afa-390f-48fe-8a9e-df2451a8a2c8")
 	)
 	(label "MMC2_D1"
 		(at 266.7 189.23 0)
@@ -4576,16 +3818,6 @@
 		)
 		(uuid "fc6fe838-e267-42a3-9639-4b33046ebfc6")
 	)
-	(label "EMMC_D6"
-		(at 317.5 229.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fdca6dcd-93a9-491f-805b-e035d4764360")
-	)
 	(label "SD_D1"
 		(at 102.87 228.6 0)
 		(effects
@@ -4595,6 +3827,358 @@
 			(justify left bottom)
 		)
 		(uuid "ff844484-88e5-4502-82a5-775ee16d6e82")
+	)
+	(global_label "QSPI1_D3"
+		(shape bidirectional)
+		(at 110.49 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34b56607-2979-45da-b279-8054b47e1694")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.3221 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MMC2_D1"
+		(shape bidirectional)
+		(at 267.97 217.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34e4e761-814d-4076-b21a-e067668428a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.0441 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MMC2_D5"
+		(shape bidirectional)
+		(at 267.97 227.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36cb9e1f-144a-40f7-b6ca-4a13f82e7c61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.0441 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MMC2_D0"
+		(shape bidirectional)
+		(at 267.97 214.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55aa2491-7f38-4a45-9c7f-2074b361f783")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.0441 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QSPI1_D0"
+		(shape bidirectional)
+		(at 110.49 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "585e8b10-5396-4a42-9e88-6e7e5a84d69d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.3221 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MMC2_CMD"
+		(shape bidirectional)
+		(at 267.97 234.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77b29f7f-064c-49ee-8999-a40ce0d1d7b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.5322 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MMC2_D4"
+		(shape bidirectional)
+		(at 267.97 224.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c203588-b16b-4271-aaec-10b423f50cf6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.0441 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MMC2_CLK"
+		(shape bidirectional)
+		(at 267.97 237.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9cdda32c-d1b1-42cf-b40d-e9c7e2b01b3c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.9555 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QSPI1_CLK"
+		(shape bidirectional)
+		(at 110.49 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad935335-f748-4fe4-9b7a-361136fab84f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.2335 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QSPI1_~{CS}"
+		(shape bidirectional)
+		(at 110.49 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7ea0528-59d0-4e12-9c77-8077886d867a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.3221 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MMC2_D7"
+		(shape bidirectional)
+		(at 267.97 232.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bd1e25db-8eaa-44e2-ad79-88b0d633552e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.0441 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MMC2_D6"
+		(shape bidirectional)
+		(at 267.97 229.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d365063d-1051-4d27-bed8-8f052c1a7df6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.0441 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MMC2_D2"
+		(shape bidirectional)
+		(at 267.97 219.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d7a9c043-6d0e-4235-a09b-8bf57ade29f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.0441 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QSPI1_D1"
+		(shape bidirectional)
+		(at 110.49 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6e12042-1e80-4c22-9a71-121158e3915d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.3221 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QSPI1_D2"
+		(shape bidirectional)
+		(at 110.49 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7fae5de-77ff-4878-a02b-e66b6f1801db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.3221 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MMC2_D3"
+		(shape bidirectional)
+		(at 267.97 222.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eab6e761-7af2-46c0-b777-214792737f26")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.0441 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+1V0")
@@ -4657,116 +4241,6 @@
 				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/d807da36-b407-4754-85a6-ddc433365c5d"
 					(reference "#PWR089")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 299.72 191.77 90)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "08b140af-7189-4935-99a1-dec6547f5656")
-		(property "Reference" "RN3"
-			(at 299.72 191.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_Pack08_Split"
-			(at 288.798 192.786 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ThingsCore-1:RESCAXS50P400X160X55-16N"
-			(at 299.72 193.802 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 299.72 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 299.72 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "576be1e2-78f5-4f54-92aa-a1a8ac224197")
-		)
-		(pin "14"
-			(uuid "8bd81439-3138-4cba-9f8e-d8ccd391f07a")
-		)
-		(pin "12"
-			(uuid "b2070f50-79ed-4eb9-bd4f-bf36953d4dc7")
-		)
-		(pin "6"
-			(uuid "1da9f87f-54f0-4af5-8e4c-fa3b1f49f642")
-		)
-		(pin "16"
-			(uuid "dd7339d3-490d-4811-90f3-9aa599bf2cb7")
-		)
-		(pin "15"
-			(uuid "83e24f82-9350-4d63-8542-e8510d04ec8b")
-		)
-		(pin "2"
-			(uuid "1a45dc05-0561-491f-9f14-18fb18f6b1c5")
-		)
-		(pin "3"
-			(uuid "29fbb664-5e74-4627-ae39-6225c01cc135")
-		)
-		(pin "13"
-			(uuid "c7165df1-17ba-4a0c-a03b-ae8288d644c4")
-		)
-		(pin "4"
-			(uuid "49e6db6c-9c36-45f0-8442-f6e768cdda5d")
-		)
-		(pin "5"
-			(uuid "c1ba698b-6bce-4755-84f0-83b7e266d6b8")
-		)
-		(pin "11"
-			(uuid "249a6cd6-e227-4be0-ba4f-b1900da8be46")
-		)
-		(pin "10"
-			(uuid "4fa866a1-836d-46c9-9e74-4d8dc67b8a08")
-		)
-		(pin "7"
-			(uuid "9c9c2dae-f5c2-4b03-92de-82c9ad24b854")
-		)
-		(pin "9"
-			(uuid "bdea78a8-5943-4567-aab2-0d106d1c192c")
-		)
-		(pin "8"
-			(uuid "536b2287-1955-41d5-8362-0f076b4069e3")
-		)
-		(instances
-			(project "ThingsCore-1"
-				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/d807da36-b407-4754-85a6-ddc433365c5d"
-					(reference "RN3")
-					(unit 3)
 				)
 			)
 		)
@@ -4975,6 +4449,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 299.72 191.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1722c646-37b3-4751-a13a-8cb6cf3ffecf")
+		(property "Reference" "R67"
+			(at 304.546 191.008 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 304.546 192.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 299.72 193.548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 299.72 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 299.72 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b0aeb54-0170-469e-949f-29d75d135077")
+		)
+		(pin "2"
+			(uuid "b81a3267-b3a1-4b95-8457-677dc675021e")
+		)
+		(instances
+			(project "ThingsCore-1"
+				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/d807da36-b407-4754-85a6-ddc433365c5d"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 321.31 73.66 0)
 		(unit 1)
@@ -5110,7 +4651,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 127 63.5 0)
+		(at 160.02 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5119,7 +4660,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d79fde3-4acc-4f87-a0b1-6206fa0e6605")
 		(property "Reference" "#PWR075"
-			(at 127 67.31 0)
+			(at 160.02 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5128,7 +4669,7 @@
 			)
 		)
 		(property "Value" "3V3_VDD"
-			(at 127 58.42 0)
+			(at 160.02 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5136,7 +4677,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 63.5 0)
+			(at 160.02 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5145,7 +4686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 63.5 0)
+			(at 160.02 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5154,7 +4695,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 127 63.5 0)
+			(at 160.02 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5169,80 +4710,6 @@
 			(project "ThingsCore-1"
 				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/d807da36-b407-4754-85a6-ddc433365c5d"
 					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack02_Split")
-		(at 300.99 234.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "34022183-db0e-44b2-85d5-1090e0944996")
-		(property "Reference" "RN2"
-			(at 300.99 234.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_Pack02_Split"
-			(at 300.99 231.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x0402"
-			(at 300.99 236.982 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 300.99 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2 resistor network, parallel topology, split"
-			(at 300.99 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d99cb8e-ed8c-4938-b2be-c9d046c3e9e5")
-		)
-		(pin "2"
-			(uuid "07095b8d-5615-4ec7-9cba-5f96126ba016")
-		)
-		(pin "3"
-			(uuid "88336e9d-ec4f-41c6-b72c-bdcd7b9fa14f")
-		)
-		(pin "4"
-			(uuid "e8291e3e-026f-4cc7-a1e0-63131bb8ce7a")
-		)
-		(instances
-			(project ""
-				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/d807da36-b407-4754-85a6-ddc433365c5d"
-					(reference "RN2")
 					(unit 1)
 				)
 			)
@@ -5311,226 +4778,6 @@
 				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/d807da36-b407-4754-85a6-ddc433365c5d"
 					(reference "#PWR083")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 300.99 217.17 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c88a15a-b5b0-4881-be1b-86d0a3b780bc")
-		(property "Reference" "RN1"
-			(at 300.99 217.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_Pack08_Split"
-			(at 290.576 218.186 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ThingsCore-1:RESCAXS50P400X160X55-16N"
-			(at 300.99 219.202 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 300.99 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 300.99 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "576be1e2-78f5-4f54-92aa-a1a8ac224194")
-		)
-		(pin "14"
-			(uuid "9b9f6495-afdb-47bd-9356-a3a2a99fa554")
-		)
-		(pin "12"
-			(uuid "b2070f50-79ed-4eb9-bd4f-bf36953d4dc4")
-		)
-		(pin "6"
-			(uuid "1da9f87f-54f0-4af5-8e4c-fa3b1f49f63f")
-		)
-		(pin "16"
-			(uuid "dd7339d3-490d-4811-90f3-9aa599bf2cb4")
-		)
-		(pin "15"
-			(uuid "83e24f82-9350-4d63-8542-e8510d04ec88")
-		)
-		(pin "2"
-			(uuid "1a45dc05-0561-491f-9f14-18fb18f6b1c2")
-		)
-		(pin "3"
-			(uuid "6e220a21-2558-4e33-9bc7-4c9df3817747")
-		)
-		(pin "13"
-			(uuid "c7165df1-17ba-4a0c-a03b-ae8288d644c1")
-		)
-		(pin "4"
-			(uuid "49e6db6c-9c36-45f0-8442-f6e768cdda5a")
-		)
-		(pin "5"
-			(uuid "c1ba698b-6bce-4755-84f0-83b7e266d6b5")
-		)
-		(pin "11"
-			(uuid "249a6cd6-e227-4be0-ba4f-b1900da8be43")
-		)
-		(pin "10"
-			(uuid "4fa866a1-836d-46c9-9e74-4d8dc67b8a05")
-		)
-		(pin "7"
-			(uuid "9c9c2dae-f5c2-4b03-92de-82c9ad24b851")
-		)
-		(pin "9"
-			(uuid "bdea78a8-5943-4567-aab2-0d106d1c1929")
-		)
-		(pin "8"
-			(uuid "536b2287-1955-41d5-8362-0f076b4069e0")
-		)
-		(instances
-			(project ""
-				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/d807da36-b407-4754-85a6-ddc433365c5d"
-					(reference "RN1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 299.72 189.23 90)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3d40d80f-3cd7-4d60-af9e-a4b3ef0814c4")
-		(property "Reference" "RN3"
-			(at 299.72 189.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_Pack08_Split"
-			(at 289.306 190.246 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ThingsCore-1:RESCAXS50P400X160X55-16N"
-			(at 299.72 191.262 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 299.72 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 299.72 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "576be1e2-78f5-4f54-92aa-a1a8ac224196")
-		)
-		(pin "14"
-			(uuid "9b9f6495-afdb-47bd-9356-a3a2a99fa556")
-		)
-		(pin "12"
-			(uuid "b2070f50-79ed-4eb9-bd4f-bf36953d4dc6")
-		)
-		(pin "6"
-			(uuid "1da9f87f-54f0-4af5-8e4c-fa3b1f49f641")
-		)
-		(pin "16"
-			(uuid "dd7339d3-490d-4811-90f3-9aa599bf2cb6")
-		)
-		(pin "15"
-			(uuid "0d2d0f9d-4403-45d0-8a44-23197bfc3e52")
-		)
-		(pin "2"
-			(uuid "bfd1c8c1-4f80-43ab-90e1-266c999200d3")
-		)
-		(pin "3"
-			(uuid "6e220a21-2558-4e33-9bc7-4c9df3817749")
-		)
-		(pin "13"
-			(uuid "c7165df1-17ba-4a0c-a03b-ae8288d644c3")
-		)
-		(pin "4"
-			(uuid "49e6db6c-9c36-45f0-8442-f6e768cdda5c")
-		)
-		(pin "5"
-			(uuid "c1ba698b-6bce-4755-84f0-83b7e266d6b7")
-		)
-		(pin "11"
-			(uuid "249a6cd6-e227-4be0-ba4f-b1900da8be45")
-		)
-		(pin "10"
-			(uuid "4fa866a1-836d-46c9-9e74-4d8dc67b8a07")
-		)
-		(pin "7"
-			(uuid "9c9c2dae-f5c2-4b03-92de-82c9ad24b853")
-		)
-		(pin "9"
-			(uuid "bdea78a8-5943-4567-aab2-0d106d1c192b")
-		)
-		(pin "8"
-			(uuid "536b2287-1955-41d5-8362-0f076b4069e2")
-		)
-		(instances
-			(project "ThingsCore-1"
-				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/d807da36-b407-4754-85a6-ddc433365c5d"
-					(reference "RN3")
-					(unit 2)
 				)
 			)
 		)
@@ -5899,116 +5146,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 299.72 186.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "50acd290-5c6b-48d5-af94-39ac74370d00")
-		(property "Reference" "RN3"
-			(at 299.72 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_Pack08_Split"
-			(at 289.052 187.706 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ThingsCore-1:RESCAXS50P400X160X55-16N"
-			(at 299.72 188.722 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 299.72 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 299.72 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c1efe8d9-b6e1-4e93-88b8-6a3b694136a3")
-		)
-		(pin "14"
-			(uuid "9b9f6495-afdb-47bd-9356-a3a2a99fa558")
-		)
-		(pin "12"
-			(uuid "b2070f50-79ed-4eb9-bd4f-bf36953d4dc8")
-		)
-		(pin "6"
-			(uuid "1da9f87f-54f0-4af5-8e4c-fa3b1f49f643")
-		)
-		(pin "16"
-			(uuid "ebf09d9e-dd71-4fb0-ab96-eda52f8be7c9")
-		)
-		(pin "15"
-			(uuid "83e24f82-9350-4d63-8542-e8510d04ec8c")
-		)
-		(pin "2"
-			(uuid "1a45dc05-0561-491f-9f14-18fb18f6b1c6")
-		)
-		(pin "3"
-			(uuid "6e220a21-2558-4e33-9bc7-4c9df381774b")
-		)
-		(pin "13"
-			(uuid "c7165df1-17ba-4a0c-a03b-ae8288d644c5")
-		)
-		(pin "4"
-			(uuid "49e6db6c-9c36-45f0-8442-f6e768cdda5e")
-		)
-		(pin "5"
-			(uuid "c1ba698b-6bce-4755-84f0-83b7e266d6b9")
-		)
-		(pin "11"
-			(uuid "249a6cd6-e227-4be0-ba4f-b1900da8be47")
-		)
-		(pin "10"
-			(uuid "4fa866a1-836d-46c9-9e74-4d8dc67b8a09")
-		)
-		(pin "7"
-			(uuid "9c9c2dae-f5c2-4b03-92de-82c9ad24b855")
-		)
-		(pin "9"
-			(uuid "bdea78a8-5943-4567-aab2-0d106d1c192d")
-		)
-		(pin "8"
-			(uuid "536b2287-1955-41d5-8362-0f076b4069e4")
-		)
-		(instances
-			(project "ThingsCore-1"
-				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/d807da36-b407-4754-85a6-ddc433365c5d"
-					(reference "RN3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 335.28 86.36 0)
 		(mirror x)
@@ -6079,33 +5216,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 300.99 227.33 90)
-		(unit 6)
+		(lib_id "Device:R")
+		(at 250.19 87.63 90)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5ad6aa58-1622-4750-86e4-b54d4bb61d9a")
-		(property "Reference" "RN1"
-			(at 300.99 227.33 90)
+		(uuid "51a17cb6-286a-4eb1-9f48-b6fa1e9e602c")
+		(property "Reference" "R64"
+			(at 244.094 86.614 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_Pack08_Split"
-			(at 300.99 223.52 90)
+		(property "Value" "33R"
+			(at 244.094 88.392 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "ThingsCore-1:RESCAXS50P400X160X55-16N"
-			(at 300.99 229.362 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 250.19 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6114,7 +5250,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 300.99 227.33 0)
+			(at 250.19 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6122,8 +5258,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 300.99 227.33 0)
+		(property "Description" "Resistor"
+			(at 250.19 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6132,65 +5268,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "576be1e2-78f5-4f54-92aa-a1a8ac224195")
-		)
-		(pin "14"
-			(uuid "9b9f6495-afdb-47bd-9356-a3a2a99fa555")
-		)
-		(pin "12"
-			(uuid "b2070f50-79ed-4eb9-bd4f-bf36953d4dc5")
-		)
-		(pin "6"
-			(uuid "1da9f87f-54f0-4af5-8e4c-fa3b1f49f640")
-		)
-		(pin "16"
-			(uuid "dd7339d3-490d-4811-90f3-9aa599bf2cb5")
-		)
-		(pin "15"
-			(uuid "83e24f82-9350-4d63-8542-e8510d04ec89")
+			(uuid "e487b394-8194-4676-8dd4-e0fb73890fdf")
 		)
 		(pin "2"
-			(uuid "1a45dc05-0561-491f-9f14-18fb18f6b1c3")
-		)
-		(pin "3"
-			(uuid "6e220a21-2558-4e33-9bc7-4c9df3817748")
-		)
-		(pin "13"
-			(uuid "c7165df1-17ba-4a0c-a03b-ae8288d644c2")
-		)
-		(pin "4"
-			(uuid "49e6db6c-9c36-45f0-8442-f6e768cdda5b")
-		)
-		(pin "5"
-			(uuid "c1ba698b-6bce-4755-84f0-83b7e266d6b6")
-		)
-		(pin "11"
-			(uuid "249a6cd6-e227-4be0-ba4f-b1900da8be44")
-		)
-		(pin "10"
-			(uuid "4fa866a1-836d-46c9-9e74-4d8dc67b8a06")
-		)
-		(pin "7"
-			(uuid "9c9c2dae-f5c2-4b03-92de-82c9ad24b852")
-		)
-		(pin "9"
-			(uuid "bdea78a8-5943-4567-aab2-0d106d1c192a")
-		)
-		(pin "8"
-			(uuid "536b2287-1955-41d5-8362-0f076b4069e1")
+			(uuid "70dc984d-44b3-4279-ae1d-746b928a08b2")
 		)
 		(instances
-			(project ""
+			(project "ThingsCore-1"
 				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/d807da36-b407-4754-85a6-ddc433365c5d"
-					(reference "RN1")
-					(unit 6)
+					(reference "R64")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 109.22 0)
+		(at 160.02 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6199,7 +5293,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c13fb29-3070-47ba-95ec-ac0de36bbbc4")
 		(property "Reference" "#PWR077"
-			(at 127 115.57 0)
+			(at 160.02 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6208,7 +5302,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 114.3 0)
+			(at 160.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6217,7 +5311,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 109.22 0)
+			(at 160.02 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6226,7 +5320,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 109.22 0)
+			(at 160.02 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6235,7 +5329,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 109.22 0)
+			(at 160.02 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6318,6 +5412,73 @@
 			(project "ThingsCore-1"
 				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/d807da36-b407-4754-85a6-ddc433365c5d"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 299.72 199.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63a2ff67-9e25-469a-890b-eb2d65125471")
+		(property "Reference" "R70"
+			(at 295.402 198.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 295.402 200.406 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 299.72 201.168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 299.72 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 299.72 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ca22cfa-7a55-4e13-90ab-fb7259946799")
+		)
+		(pin "2"
+			(uuid "724ba388-90e7-4a5f-9549-5482cd337bb8")
+		)
+		(instances
+			(project "ThingsCore-1"
+				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/d807da36-b407-4754-85a6-ddc433365c5d"
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -6458,116 +5619,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 300.99 232.41 90)
-		(unit 8)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "67e33683-a1b1-48a6-bb1b-7e465a553c85")
-		(property "Reference" "RN1"
-			(at 300.99 232.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_Pack08_Split"
-			(at 300.99 228.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ThingsCore-1:RESCAXS50P400X160X55-16N"
-			(at 300.99 234.442 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 300.99 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 300.99 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "576be1e2-78f5-4f54-92aa-a1a8ac224198")
-		)
-		(pin "14"
-			(uuid "9b9f6495-afdb-47bd-9356-a3a2a99fa557")
-		)
-		(pin "12"
-			(uuid "b2070f50-79ed-4eb9-bd4f-bf36953d4dc9")
-		)
-		(pin "6"
-			(uuid "1da9f87f-54f0-4af5-8e4c-fa3b1f49f644")
-		)
-		(pin "16"
-			(uuid "dd7339d3-490d-4811-90f3-9aa599bf2cb8")
-		)
-		(pin "15"
-			(uuid "83e24f82-9350-4d63-8542-e8510d04ec8a")
-		)
-		(pin "2"
-			(uuid "1a45dc05-0561-491f-9f14-18fb18f6b1c4")
-		)
-		(pin "3"
-			(uuid "6e220a21-2558-4e33-9bc7-4c9df381774a")
-		)
-		(pin "13"
-			(uuid "c7165df1-17ba-4a0c-a03b-ae8288d644c6")
-		)
-		(pin "4"
-			(uuid "49e6db6c-9c36-45f0-8442-f6e768cdda5f")
-		)
-		(pin "5"
-			(uuid "c1ba698b-6bce-4755-84f0-83b7e266d6ba")
-		)
-		(pin "11"
-			(uuid "249a6cd6-e227-4be0-ba4f-b1900da8be48")
-		)
-		(pin "10"
-			(uuid "4fa866a1-836d-46c9-9e74-4d8dc67b8a0a")
-		)
-		(pin "7"
-			(uuid "9c9c2dae-f5c2-4b03-92de-82c9ad24b856")
-		)
-		(pin "9"
-			(uuid "bdea78a8-5943-4567-aab2-0d106d1c192e")
-		)
-		(pin "8"
-			(uuid "536b2287-1955-41d5-8362-0f076b4069e5")
-		)
-		(instances
-			(project ""
-				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/d807da36-b407-4754-85a6-ddc433365c5d"
-					(reference "RN1")
-					(unit 8)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 321.31 86.36 0)
 		(unit 1)
@@ -6636,23 +5687,23 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 250.19 87.63 90)
+		(at 299.72 196.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6f5be8e5-1fa1-472b-8a73-ba382012ab5d")
-		(property "Reference" "R27"
-			(at 245.364 86.614 90)
+		(uuid "71e70235-1600-4736-be40-fa6bd69db456")
+		(property "Reference" "R69"
+			(at 304.8 195.834 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "33"
-			(at 245.364 88.9 90)
+		(property "Value" "33R"
+			(at 304.8 197.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6660,7 +5711,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 250.19 89.408 90)
+			(at 299.72 198.628 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6669,7 +5720,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 87.63 0)
+			(at 299.72 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6678,7 +5729,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 250.19 87.63 0)
+			(at 299.72 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6687,15 +5738,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "e01a96e1-5647-4a05-a076-167299ece56d")
+			(uuid "a1e5b736-d87b-4761-8d11-f4bb122ef20c")
 		)
 		(pin "2"
-			(uuid "7dd51cc8-6c63-40c7-b9bf-9f7eb1d8d138")
+			(uuid "664be0e5-c638-4c68-8248-efaf08e0d603")
 		)
 		(instances
 			(project "ThingsCore-1"
 				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/d807da36-b407-4754-85a6-ddc433365c5d"
-					(reference "R27")
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -6769,33 +5820,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 300.99 222.25 90)
-		(unit 4)
+		(lib_id "Device:R")
+		(at 299.72 189.23 90)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7a090227-c2b4-4deb-904f-23fdb665e750")
-		(property "Reference" "RN1"
-			(at 300.99 222.25 90)
+		(uuid "775bc953-1e19-44f4-9072-af8beb1f4c17")
+		(property "Reference" "R66"
+			(at 295.656 188.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_Pack08_Split"
-			(at 290.322 223.266 90)
+		(property "Value" "33R"
+			(at 295.656 190.246 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "ThingsCore-1:RESCAXS50P400X160X55-16N"
-			(at 300.99 224.282 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 299.72 191.008 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6804,7 +5854,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 300.99 222.25 0)
+			(at 299.72 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6812,118 +5862,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 300.99 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "576be1e2-78f5-4f54-92aa-a1a8ac224199")
-		)
-		(pin "14"
-			(uuid "9b9f6495-afdb-47bd-9356-a3a2a99fa559")
-		)
-		(pin "12"
-			(uuid "b2070f50-79ed-4eb9-bd4f-bf36953d4dca")
-		)
-		(pin "6"
-			(uuid "1da9f87f-54f0-4af5-8e4c-fa3b1f49f645")
-		)
-		(pin "16"
-			(uuid "dd7339d3-490d-4811-90f3-9aa599bf2cb9")
-		)
-		(pin "15"
-			(uuid "83e24f82-9350-4d63-8542-e8510d04ec8d")
-		)
-		(pin "2"
-			(uuid "1a45dc05-0561-491f-9f14-18fb18f6b1c7")
-		)
-		(pin "3"
-			(uuid "6e220a21-2558-4e33-9bc7-4c9df381774c")
-		)
-		(pin "13"
-			(uuid "c7165df1-17ba-4a0c-a03b-ae8288d644c7")
-		)
-		(pin "4"
-			(uuid "49e6db6c-9c36-45f0-8442-f6e768cdda60")
-		)
-		(pin "5"
-			(uuid "c1ba698b-6bce-4755-84f0-83b7e266d6bb")
-		)
-		(pin "11"
-			(uuid "249a6cd6-e227-4be0-ba4f-b1900da8be49")
-		)
-		(pin "10"
-			(uuid "4fa866a1-836d-46c9-9e74-4d8dc67b8a0b")
-		)
-		(pin "7"
-			(uuid "9c9c2dae-f5c2-4b03-92de-82c9ad24b857")
-		)
-		(pin "9"
-			(uuid "bdea78a8-5943-4567-aab2-0d106d1c192f")
-		)
-		(pin "8"
-			(uuid "536b2287-1955-41d5-8362-0f076b4069e6")
-		)
-		(instances
-			(project ""
-				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/d807da36-b407-4754-85a6-ddc433365c5d"
-					(reference "RN1")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 300.99 224.79 90)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7a320d95-8fa2-409c-9c47-28cf90400e37")
-		(property "Reference" "RN1"
-			(at 300.99 224.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_Pack08_Split"
-			(at 300.99 220.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ThingsCore-1:RESCAXS50P400X160X55-16N"
-			(at 300.99 226.822 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 300.99 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 300.99 224.79 0)
+		(property "Description" "Resistor"
+			(at 299.72 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6932,58 +5872,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "576be1e2-78f5-4f54-92aa-a1a8ac22419a")
-		)
-		(pin "14"
-			(uuid "9b9f6495-afdb-47bd-9356-a3a2a99fa55a")
-		)
-		(pin "12"
-			(uuid "b2070f50-79ed-4eb9-bd4f-bf36953d4dcb")
-		)
-		(pin "6"
-			(uuid "1da9f87f-54f0-4af5-8e4c-fa3b1f49f646")
-		)
-		(pin "16"
-			(uuid "dd7339d3-490d-4811-90f3-9aa599bf2cba")
-		)
-		(pin "15"
-			(uuid "83e24f82-9350-4d63-8542-e8510d04ec8e")
+			(uuid "469f5043-654f-4be1-91ed-312e917ea30e")
 		)
 		(pin "2"
-			(uuid "1a45dc05-0561-491f-9f14-18fb18f6b1c8")
-		)
-		(pin "3"
-			(uuid "6e220a21-2558-4e33-9bc7-4c9df381774d")
-		)
-		(pin "13"
-			(uuid "c7165df1-17ba-4a0c-a03b-ae8288d644c8")
-		)
-		(pin "4"
-			(uuid "49e6db6c-9c36-45f0-8442-f6e768cdda61")
-		)
-		(pin "5"
-			(uuid "c1ba698b-6bce-4755-84f0-83b7e266d6bc")
-		)
-		(pin "11"
-			(uuid "249a6cd6-e227-4be0-ba4f-b1900da8be4a")
-		)
-		(pin "10"
-			(uuid "4fa866a1-836d-46c9-9e74-4d8dc67b8a0c")
-		)
-		(pin "7"
-			(uuid "9c9c2dae-f5c2-4b03-92de-82c9ad24b858")
-		)
-		(pin "9"
-			(uuid "bdea78a8-5943-4567-aab2-0d106d1c1930")
-		)
-		(pin "8"
-			(uuid "536b2287-1955-41d5-8362-0f076b4069e7")
+			(uuid "58f71554-9bd5-4d63-a890-5f016c779116")
 		)
 		(instances
-			(project ""
+			(project "ThingsCore-1"
 				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/d807da36-b407-4754-85a6-ddc433365c5d"
-					(reference "RN1")
-					(unit 5)
+					(reference "R66")
+					(unit 1)
 				)
 			)
 		)
@@ -7060,7 +5958,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 95.25 85.09 90)
+		(at 128.27 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7068,7 +5966,7 @@
 		(dnp no)
 		(uuid "8c4175db-9a50-45bd-aad9-665608894579")
 		(property "Reference" "R23"
-			(at 90.424 83.82 90)
+			(at 123.444 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7076,7 +5974,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 90.424 86.36 90)
+			(at 123.444 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7084,7 +5982,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 95.25 86.868 90)
+			(at 128.27 84.328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7093,7 +5991,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 85.09 0)
+			(at 128.27 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7102,7 +6000,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 95.25 85.09 0)
+			(at 128.27 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7193,33 +6091,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 299.72 199.39 90)
-		(unit 6)
+		(lib_id "Device:R")
+		(at 299.72 186.69 90)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9bbff7f7-64f6-4a94-9744-1b3d01235ae8")
-		(property "Reference" "RN3"
-			(at 299.72 199.39 90)
+		(uuid "a57d055c-80ca-47ef-aa21-620e5b3bd861")
+		(property "Reference" "R65"
+			(at 304.546 185.928 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_Pack08_Split"
-			(at 299.72 195.58 90)
+		(property "Value" "33R"
+			(at 304.546 187.706 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "ThingsCore-1:RESCAXS50P400X160X55-16N"
-			(at 299.72 201.422 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 299.72 188.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7228,7 +6125,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 299.72 199.39 0)
+			(at 299.72 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7236,8 +6133,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 299.72 199.39 0)
+		(property "Description" "Resistor"
+			(at 299.72 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7246,90 +6143,47 @@
 			)
 		)
 		(pin "1"
-			(uuid "576be1e2-78f5-4f54-92aa-a1a8ac22419b")
-		)
-		(pin "14"
-			(uuid "9b9f6495-afdb-47bd-9356-a3a2a99fa55b")
-		)
-		(pin "12"
-			(uuid "b2070f50-79ed-4eb9-bd4f-bf36953d4dcc")
-		)
-		(pin "6"
-			(uuid "db0af251-c285-42f8-ba80-307d2450310c")
-		)
-		(pin "16"
-			(uuid "dd7339d3-490d-4811-90f3-9aa599bf2cbb")
-		)
-		(pin "15"
-			(uuid "83e24f82-9350-4d63-8542-e8510d04ec8f")
+			(uuid "d674b8d8-95a3-4f82-a382-0eac351746f7")
 		)
 		(pin "2"
-			(uuid "1a45dc05-0561-491f-9f14-18fb18f6b1c9")
-		)
-		(pin "3"
-			(uuid "6e220a21-2558-4e33-9bc7-4c9df381774e")
-		)
-		(pin "13"
-			(uuid "c7165df1-17ba-4a0c-a03b-ae8288d644c9")
-		)
-		(pin "4"
-			(uuid "49e6db6c-9c36-45f0-8442-f6e768cdda62")
-		)
-		(pin "5"
-			(uuid "c1ba698b-6bce-4755-84f0-83b7e266d6bd")
-		)
-		(pin "11"
-			(uuid "c7046960-851e-44b4-8154-f980e774e978")
-		)
-		(pin "10"
-			(uuid "4fa866a1-836d-46c9-9e74-4d8dc67b8a0d")
-		)
-		(pin "7"
-			(uuid "9c9c2dae-f5c2-4b03-92de-82c9ad24b859")
-		)
-		(pin "9"
-			(uuid "bdea78a8-5943-4567-aab2-0d106d1c1931")
-		)
-		(pin "8"
-			(uuid "536b2287-1955-41d5-8362-0f076b4069e8")
+			(uuid "5ba14b97-c853-472b-a0f9-28c7df139358")
 		)
 		(instances
 			(project "ThingsCore-1"
 				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/d807da36-b407-4754-85a6-ddc433365c5d"
-					(reference "RN3")
-					(unit 6)
+					(reference "R65")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack02_Split")
-		(at 300.99 237.49 90)
-		(unit 2)
+		(lib_id "Device:R")
+		(at 299.72 194.31 90)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "abb9971b-f767-4f34-a7cc-b22a50c6cff8")
-		(property "Reference" "RN2"
-			(at 300.99 237.49 90)
+		(uuid "b3cc79e6-5d39-447e-bb18-49eb7a4d1af5")
+		(property "Reference" "R68"
+			(at 295.148 193.548 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_Pack02_Split"
-			(at 300.99 233.68 90)
+		(property "Value" "33R"
+			(at 295.148 195.326 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x0402"
-			(at 300.99 239.522 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 299.72 196.088 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7338,7 +6192,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 300.99 237.49 0)
+			(at 299.72 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7346,8 +6200,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2 resistor network, parallel topology, split"
-			(at 300.99 237.49 0)
+		(property "Description" "Resistor"
+			(at 299.72 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7356,22 +6210,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "9d99cb8e-ed8c-4938-b2be-c9d046c3e9e6")
+			(uuid "fe11b8a8-7095-486b-b0ee-2a91fe055551")
 		)
 		(pin "2"
-			(uuid "07095b8d-5615-4ec7-9cba-5f96126ba017")
-		)
-		(pin "3"
-			(uuid "88336e9d-ec4f-41c6-b72c-bdcd7b9fa150")
-		)
-		(pin "4"
-			(uuid "e8291e3e-026f-4cc7-a1e0-63131bb8ce7b")
+			(uuid "00cbc6c2-d0c9-4b21-b816-708d16981337")
 		)
 		(instances
-			(project ""
+			(project "ThingsCore-1"
 				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/d807da36-b407-4754-85a6-ddc433365c5d"
-					(reference "RN2")
-					(unit 2)
+					(reference "R68")
+					(unit 1)
 				)
 			)
 		)
@@ -7444,336 +6292,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 299.72 194.31 90)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b7b953dc-88da-4fc9-a07b-203c2f9ff799")
-		(property "Reference" "RN3"
-			(at 299.72 194.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_Pack08_Split"
-			(at 289.052 195.326 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ThingsCore-1:RESCAXS50P400X160X55-16N"
-			(at 299.72 196.342 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 299.72 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 299.72 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "576be1e2-78f5-4f54-92aa-a1a8ac22419c")
-		)
-		(pin "14"
-			(uuid "9b9f6495-afdb-47bd-9356-a3a2a99fa55c")
-		)
-		(pin "12"
-			(uuid "b2070f50-79ed-4eb9-bd4f-bf36953d4dcd")
-		)
-		(pin "6"
-			(uuid "1da9f87f-54f0-4af5-8e4c-fa3b1f49f647")
-		)
-		(pin "16"
-			(uuid "dd7339d3-490d-4811-90f3-9aa599bf2cbc")
-		)
-		(pin "15"
-			(uuid "83e24f82-9350-4d63-8542-e8510d04ec90")
-		)
-		(pin "2"
-			(uuid "1a45dc05-0561-491f-9f14-18fb18f6b1ca")
-		)
-		(pin "3"
-			(uuid "6e220a21-2558-4e33-9bc7-4c9df381774f")
-		)
-		(pin "13"
-			(uuid "763348af-063e-4203-af84-1207826ddd17")
-		)
-		(pin "4"
-			(uuid "c0772bf6-4861-4759-9f3e-f6c55855db45")
-		)
-		(pin "5"
-			(uuid "c1ba698b-6bce-4755-84f0-83b7e266d6be")
-		)
-		(pin "11"
-			(uuid "249a6cd6-e227-4be0-ba4f-b1900da8be4b")
-		)
-		(pin "10"
-			(uuid "4fa866a1-836d-46c9-9e74-4d8dc67b8a0e")
-		)
-		(pin "7"
-			(uuid "9c9c2dae-f5c2-4b03-92de-82c9ad24b85a")
-		)
-		(pin "9"
-			(uuid "bdea78a8-5943-4567-aab2-0d106d1c1932")
-		)
-		(pin "8"
-			(uuid "536b2287-1955-41d5-8362-0f076b4069e9")
-		)
-		(instances
-			(project "ThingsCore-1"
-				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/d807da36-b407-4754-85a6-ddc433365c5d"
-					(reference "RN3")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 299.72 196.85 90)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b861f08a-9f74-45fb-ab67-4be274093195")
-		(property "Reference" "RN3"
-			(at 299.72 196.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_Pack08_Split"
-			(at 299.72 193.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ThingsCore-1:RESCAXS50P400X160X55-16N"
-			(at 299.72 198.882 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 299.72 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 299.72 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "576be1e2-78f5-4f54-92aa-a1a8ac22419d")
-		)
-		(pin "14"
-			(uuid "9b9f6495-afdb-47bd-9356-a3a2a99fa55d")
-		)
-		(pin "12"
-			(uuid "176fd1ea-3123-44a6-8e41-abf3e82246e5")
-		)
-		(pin "6"
-			(uuid "1da9f87f-54f0-4af5-8e4c-fa3b1f49f648")
-		)
-		(pin "16"
-			(uuid "dd7339d3-490d-4811-90f3-9aa599bf2cbd")
-		)
-		(pin "15"
-			(uuid "83e24f82-9350-4d63-8542-e8510d04ec91")
-		)
-		(pin "2"
-			(uuid "1a45dc05-0561-491f-9f14-18fb18f6b1cb")
-		)
-		(pin "3"
-			(uuid "6e220a21-2558-4e33-9bc7-4c9df3817750")
-		)
-		(pin "13"
-			(uuid "c7165df1-17ba-4a0c-a03b-ae8288d644ca")
-		)
-		(pin "4"
-			(uuid "49e6db6c-9c36-45f0-8442-f6e768cdda63")
-		)
-		(pin "5"
-			(uuid "00ecbed8-caaf-404d-ae71-092cc2daa51c")
-		)
-		(pin "11"
-			(uuid "249a6cd6-e227-4be0-ba4f-b1900da8be4c")
-		)
-		(pin "10"
-			(uuid "4fa866a1-836d-46c9-9e74-4d8dc67b8a0f")
-		)
-		(pin "7"
-			(uuid "9c9c2dae-f5c2-4b03-92de-82c9ad24b85b")
-		)
-		(pin "9"
-			(uuid "bdea78a8-5943-4567-aab2-0d106d1c1933")
-		)
-		(pin "8"
-			(uuid "536b2287-1955-41d5-8362-0f076b4069ea")
-		)
-		(instances
-			(project "ThingsCore-1"
-				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/d807da36-b407-4754-85a6-ddc433365c5d"
-					(reference "RN3")
-					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 300.99 219.71 90)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b9ef8e68-25ad-413a-8cf9-d9663c98dcb7")
-		(property "Reference" "RN1"
-			(at 300.99 219.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_Pack08_Split"
-			(at 290.068 220.726 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ThingsCore-1:RESCAXS50P400X160X55-16N"
-			(at 300.99 221.742 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 300.99 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 300.99 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "576be1e2-78f5-4f54-92aa-a1a8ac22419e")
-		)
-		(pin "14"
-			(uuid "9b9f6495-afdb-47bd-9356-a3a2a99fa55e")
-		)
-		(pin "12"
-			(uuid "b2070f50-79ed-4eb9-bd4f-bf36953d4dce")
-		)
-		(pin "6"
-			(uuid "1da9f87f-54f0-4af5-8e4c-fa3b1f49f649")
-		)
-		(pin "16"
-			(uuid "dd7339d3-490d-4811-90f3-9aa599bf2cbe")
-		)
-		(pin "15"
-			(uuid "83e24f82-9350-4d63-8542-e8510d04ec92")
-		)
-		(pin "2"
-			(uuid "1a45dc05-0561-491f-9f14-18fb18f6b1cc")
-		)
-		(pin "3"
-			(uuid "6e220a21-2558-4e33-9bc7-4c9df3817751")
-		)
-		(pin "13"
-			(uuid "c7165df1-17ba-4a0c-a03b-ae8288d644cb")
-		)
-		(pin "4"
-			(uuid "49e6db6c-9c36-45f0-8442-f6e768cdda64")
-		)
-		(pin "5"
-			(uuid "c1ba698b-6bce-4755-84f0-83b7e266d6bf")
-		)
-		(pin "11"
-			(uuid "249a6cd6-e227-4be0-ba4f-b1900da8be4d")
-		)
-		(pin "10"
-			(uuid "4fa866a1-836d-46c9-9e74-4d8dc67b8a10")
-		)
-		(pin "7"
-			(uuid "9c9c2dae-f5c2-4b03-92de-82c9ad24b85c")
-		)
-		(pin "9"
-			(uuid "bdea78a8-5943-4567-aab2-0d106d1c1934")
-		)
-		(pin "8"
-			(uuid "536b2287-1955-41d5-8362-0f076b4069eb")
-		)
-		(instances
-			(project ""
-				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/d807da36-b407-4754-85a6-ddc433365c5d"
-					(reference "RN1")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V0")
 		(at 80.01 180.34 0)
 		(unit 1)
@@ -7841,7 +6359,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
-		(at 110.49 69.85 0)
+		(at 143.51 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7850,7 +6368,7 @@
 		(fields_autoplaced yes)
 		(uuid "c047dd75-c348-4b29-9087-b6e2642f4885")
 		(property "Reference" "#PWR078"
-			(at 110.49 73.66 0)
+			(at 143.51 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7859,7 +6377,7 @@
 			)
 		)
 		(property "Value" "3V3_VDD"
-			(at 110.49 64.77 0)
+			(at 143.51 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7867,7 +6385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 69.85 0)
+			(at 143.51 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7876,7 +6394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 69.85 0)
+			(at 143.51 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7885,7 +6403,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 110.49 69.85 0)
+			(at 143.51 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7907,7 +6425,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 151.13 71.12 0)
+		(at 184.15 68.58 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7916,7 +6434,7 @@
 		(dnp no)
 		(uuid "c742f7a0-e585-4c67-a11a-e12777e679d9")
 		(property "Reference" "C71"
-			(at 147.32 69.8499 0)
+			(at 180.34 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7925,7 +6443,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 147.32 72.3899 0)
+			(at 180.34 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7934,7 +6452,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 152.0952 67.31 0)
+			(at 185.1152 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7943,7 +6461,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 71.12 0)
+			(at 184.15 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7952,7 +6470,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 151.13 71.12 0)
+			(at 184.15 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8212,7 +6730,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 137.16 71.12 0)
+		(at 170.18 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8220,7 +6738,7 @@
 		(dnp no)
 		(uuid "de94c2c8-e3bd-4865-9e49-be537b93ad23")
 		(property "Reference" "C72"
-			(at 132.08 72.39 0)
+			(at 165.1 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8228,7 +6746,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 132.08 70.358 0)
+			(at 165.1 67.818 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8236,7 +6754,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 138.1252 74.93 0)
+			(at 171.1452 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8245,7 +6763,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 71.12 0)
+			(at 170.18 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8254,7 +6772,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 137.16 71.12 0)
+			(at 170.18 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8346,7 +6864,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 78.74 0)
+		(at 184.15 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8355,7 +6873,7 @@
 		(fields_autoplaced yes)
 		(uuid "f41da0a6-7582-4504-b9bc-0a97645196a7")
 		(property "Reference" "#PWR076"
-			(at 151.13 85.09 0)
+			(at 184.15 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8364,7 +6882,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 83.82 0)
+			(at 184.15 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8373,7 +6891,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 78.74 0)
+			(at 184.15 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8382,7 +6900,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 78.74 0)
+			(at 184.15 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8391,7 +6909,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 78.74 0)
+			(at 184.15 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8413,7 +6931,7 @@
 	)
 	(symbol
 		(lib_id "ThingsCore-1:W25Q256JVEIQ")
-		(at 118.11 101.6 0)
+		(at 151.13 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8422,7 +6940,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4cf718a-2fe2-4451-9053-74d8ff138369")
 		(property "Reference" "U8"
-			(at 137.16 89.5349 0)
+			(at 170.18 86.9949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8431,7 +6949,7 @@
 			)
 		)
 		(property "Value" "W25Q256JVEIQ"
-			(at 137.16 92.0749 0)
+			(at 170.18 89.5349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8440,7 +6958,7 @@
 			)
 		)
 		(property "Footprint" "ThingsCore-1:SON127P800X600X80-9N-D"
-			(at 154.94 196.52 0)
+			(at 187.96 193.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8450,7 +6968,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25Q256JVEIQ&type=datasheet"
-			(at 154.94 296.52 0)
+			(at 187.96 293.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8460,7 +6978,7 @@
 			)
 		)
 		(property "Description" "256M-bit Serial Flash Memory with uniform 4KB sectors and Dual/Quad SPI"
-			(at 128.778 108.712 0)
+			(at 161.798 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8469,7 +6987,7 @@
 			)
 		)
 		(property "Height" "0.8"
-			(at 154.94 496.52 0)
+			(at 187.96 493.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8479,7 +6997,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Winbond"
-			(at 154.94 596.52 0)
+			(at 187.96 593.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8489,7 +7007,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "W25Q256JVEIQ"
-			(at 154.94 696.52 0)
+			(at 187.96 693.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8499,7 +7017,7 @@
 			)
 		)
 		(property "Mouser Part Number" "454-W25Q256JVEIQ"
-			(at 154.94 796.52 0)
+			(at 187.96 793.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8509,7 +7027,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Winbond/W25Q256JVEIQ?qs=qSfuJ%252Bfl%2Fd4o%2FNFUf7yCgA%3D%3D"
-			(at 154.94 896.52 0)
+			(at 187.96 893.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8519,7 +7037,7 @@
 			)
 		)
 		(property "Arrow Part Number" "W25Q256JVEIQ"
-			(at 154.94 996.52 0)
+			(at 187.96 993.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8529,7 +7047,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/w25q256jveiq/winbond-electronics?utm_currency=USD&region=nac"
-			(at 154.94 1096.52 0)
+			(at 187.96 1093.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8569,293 +7087,6 @@
 			(project ""
 				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/d807da36-b407-4754-85a6-ddc433365c5d"
 					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 300.99 229.87 90)
-		(unit 7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f9b77d0d-8199-4800-8267-69afa0151686")
-		(property "Reference" "RN1"
-			(at 300.99 229.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_Pack08_Split"
-			(at 300.99 226.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ThingsCore-1:RESCAXS50P400X160X55-16N"
-			(at 300.99 231.902 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 300.99 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 300.99 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "576be1e2-78f5-4f54-92aa-a1a8ac22419f")
-		)
-		(pin "14"
-			(uuid "9b9f6495-afdb-47bd-9356-a3a2a99fa55f")
-		)
-		(pin "12"
-			(uuid "b2070f50-79ed-4eb9-bd4f-bf36953d4dcf")
-		)
-		(pin "6"
-			(uuid "1da9f87f-54f0-4af5-8e4c-fa3b1f49f64a")
-		)
-		(pin "16"
-			(uuid "dd7339d3-490d-4811-90f3-9aa599bf2cbf")
-		)
-		(pin "15"
-			(uuid "83e24f82-9350-4d63-8542-e8510d04ec93")
-		)
-		(pin "2"
-			(uuid "1a45dc05-0561-491f-9f14-18fb18f6b1cd")
-		)
-		(pin "3"
-			(uuid "6e220a21-2558-4e33-9bc7-4c9df3817752")
-		)
-		(pin "13"
-			(uuid "c7165df1-17ba-4a0c-a03b-ae8288d644cc")
-		)
-		(pin "4"
-			(uuid "49e6db6c-9c36-45f0-8442-f6e768cdda65")
-		)
-		(pin "5"
-			(uuid "c1ba698b-6bce-4755-84f0-83b7e266d6c0")
-		)
-		(pin "11"
-			(uuid "249a6cd6-e227-4be0-ba4f-b1900da8be4e")
-		)
-		(pin "10"
-			(uuid "4fa866a1-836d-46c9-9e74-4d8dc67b8a11")
-		)
-		(pin "7"
-			(uuid "9c9c2dae-f5c2-4b03-92de-82c9ad24b85d")
-		)
-		(pin "9"
-			(uuid "bdea78a8-5943-4567-aab2-0d106d1c1935")
-		)
-		(pin "8"
-			(uuid "536b2287-1955-41d5-8362-0f076b4069ec")
-		)
-		(instances
-			(project ""
-				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/d807da36-b407-4754-85a6-ddc433365c5d"
-					(reference "RN1")
-					(unit 7)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 99.06 220.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fcf2d895-846f-443c-af89-6b229a146ae4")
-		(property "Reference" "R25"
-			(at 94.234 219.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33"
-			(at 94.234 222.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 99.06 222.758 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 99.06 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6c3450d-e363-4e60-84d4-aeebb124ec44")
-		)
-		(pin "2"
-			(uuid "e8935c32-3d90-427d-bd80-19c1a4bddc90")
-		)
-		(instances
-			(project "ThingsCore-1"
-				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/d807da36-b407-4754-85a6-ddc433365c5d"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack08_Split")
-		(at 300.99 214.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fd474d4f-1ad4-4696-8609-ccf2e7eefad0")
-		(property "Reference" "RN1"
-			(at 300.99 214.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_Pack08_Split"
-			(at 290.322 215.646 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ThingsCore-1:RESCAXS50P400X160X55-16N"
-			(at 300.99 216.662 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 300.99 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "8 resistor network, parallel topology, split"
-			(at 300.99 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "576be1e2-78f5-4f54-92aa-a1a8ac2241a0")
-		)
-		(pin "14"
-			(uuid "9b9f6495-afdb-47bd-9356-a3a2a99fa560")
-		)
-		(pin "12"
-			(uuid "b2070f50-79ed-4eb9-bd4f-bf36953d4dd0")
-		)
-		(pin "6"
-			(uuid "1da9f87f-54f0-4af5-8e4c-fa3b1f49f64b")
-		)
-		(pin "16"
-			(uuid "dd7339d3-490d-4811-90f3-9aa599bf2cc0")
-		)
-		(pin "15"
-			(uuid "83e24f82-9350-4d63-8542-e8510d04ec94")
-		)
-		(pin "2"
-			(uuid "1a45dc05-0561-491f-9f14-18fb18f6b1ce")
-		)
-		(pin "3"
-			(uuid "6e220a21-2558-4e33-9bc7-4c9df3817753")
-		)
-		(pin "13"
-			(uuid "c7165df1-17ba-4a0c-a03b-ae8288d644cd")
-		)
-		(pin "4"
-			(uuid "49e6db6c-9c36-45f0-8442-f6e768cdda66")
-		)
-		(pin "5"
-			(uuid "c1ba698b-6bce-4755-84f0-83b7e266d6c1")
-		)
-		(pin "11"
-			(uuid "249a6cd6-e227-4be0-ba4f-b1900da8be4f")
-		)
-		(pin "10"
-			(uuid "4fa866a1-836d-46c9-9e74-4d8dc67b8a12")
-		)
-		(pin "7"
-			(uuid "9c9c2dae-f5c2-4b03-92de-82c9ad24b85e")
-		)
-		(pin "9"
-			(uuid "bdea78a8-5943-4567-aab2-0d106d1c1936")
-		)
-		(pin "8"
-			(uuid "536b2287-1955-41d5-8362-0f076b4069ed")
-		)
-		(instances
-			(project ""
-				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/d807da36-b407-4754-85a6-ddc433365c5d"
-					(reference "RN1")
 					(unit 1)
 				)
 			)
@@ -8933,7 +7164,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 110.49 76.2 180)
+		(at 143.51 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8941,7 +7172,7 @@
 		(dnp no)
 		(uuid "ffcf4716-0b9e-40d2-b48b-651def6caad2")
 		(property "Reference" "R24"
-			(at 114.554 74.93 0)
+			(at 147.574 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8949,7 +7180,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 114.554 76.962 0)
+			(at 147.574 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8957,7 +7188,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 112.268 76.2 90)
+			(at 145.288 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8966,7 +7197,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 76.2 0)
+			(at 143.51 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8975,7 +7206,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 110.49 76.2 0)
+			(at 143.51 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)

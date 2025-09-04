@@ -8260,6 +8260,12 @@
 		(uuid "4768426f-f027-4ae7-a052-492af9b0eb80")
 	)
 	(junction
+		(at 295.91 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b73ab07-b721-4328-9525-b5495ce750d9")
+	)
+	(junction
 		(at 337.82 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8983,7 +8989,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 215.9) (xy 290.83 215.9)
+			(xy 299.72 215.9) (xy 295.91 215.9)
 		)
 		(stroke
 			(width 0)
@@ -9874,6 +9880,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 222.25) (xy 295.91 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65119baf-152b-4292-9f17-fbfb347f8f17")
+	)
+	(wire
+		(pts
 			(xy 250.19 238.76) (xy 250.19 240.03)
 		)
 		(stroke
@@ -10371,6 +10387,16 @@
 			(type default)
 		)
 		(uuid "92e655d4-ea40-4429-9d36-bc83c7e278fe")
+	)
+	(wire
+		(pts
+			(xy 295.91 222.25) (xy 295.91 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94837a56-67c8-4a71-a273-7b0f62161bed")
 	)
 	(wire
 		(pts
@@ -10881,6 +10907,16 @@
 			(type default)
 		)
 		(uuid "b5a934e5-1efc-4512-aa6b-f789698d1bdd")
+	)
+	(wire
+		(pts
+			(xy 295.91 215.9) (xy 290.83 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b64c8dfd-1853-4993-aa71-cc27ccffa3ec")
 	)
 	(wire
 		(pts
@@ -11942,6 +11978,72 @@
 			(justify left bottom)
 		)
 		(uuid "f58d177b-0237-4303-ac2a-e608a47eb7d7")
+	)
+	(global_label "VBAT"
+		(shape bidirectional)
+		(at 288.29 222.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4d11591-8dd8-4fbe-bc37-b1d8eb8224b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 279.7787 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWR_ONRST"
+		(shape bidirectional)
+		(at 59.69 238.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d294a549-aeb3-4da6-8f63-240025c07a5f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.5264 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWR_ONRST"
+		(shape bidirectional)
+		(at 59.69 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4548e2d-29dc-4e2e-b673-62c01c3ceed2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.5264 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+1V0")
