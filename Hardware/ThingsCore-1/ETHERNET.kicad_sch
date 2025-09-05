@@ -2821,6 +2821,12 @@
 		(uuid "d5039201-300b-47b7-ba06-a319be9ff6a0")
 	)
 	(junction
+		(at 78.74 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfd7368b-5893-4814-a7b1-642ac642010c")
+	)
+	(junction
 		(at 276.86 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3920,6 +3926,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 139.7) (xy 78.74 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85d1412a-2278-451c-9277-33cd2dc9f40e")
+	)
+	(wire
+		(pts
 			(xy 73.66 184.15) (xy 73.66 186.69)
 		)
 		(stroke
@@ -4360,7 +4376,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 142.24) (xy 88.9 142.24)
+			(xy 72.39 142.24) (xy 78.74 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4800,6 +4816,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 139.7) (xy 78.74 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb626c5e-f946-4d78-9e73-e711c1d0dadf")
+	)
+	(wire
+		(pts
 			(xy 248.92 149.86) (xy 260.35 149.86)
 		)
 		(stroke
@@ -4807,6 +4833,16 @@
 			(type default)
 		)
 		(uuid "ebd239a9-eebe-4fe0-9aaf-5c6e28c98c28")
+	)
+	(wire
+		(pts
+			(xy 78.74 142.24) (xy 88.9 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee40a183-45a7-4d83-a54f-ab4e0615e9ff")
 	)
 	(wire
 		(pts
@@ -5501,6 +5537,28 @@
 		(uuid "166126c6-f8c3-4c64-9b23-1b1975ae5bf5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 113.0459 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ETH_RST"
+		(shape bidirectional)
+		(at 36.83 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ee1fdbf-3fe0-4b93-9a33-b5467f9a525c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.8717 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6558,6 +6616,72 @@
 			(project "ThingsCore-1"
 				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/992f1809-ba75-41aa-9652-2a2392b25d6d"
 					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
+		(at 52.07 142.24 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "293d790e-cd6a-49ab-8bcd-dfdedff7e667")
+		(property "Reference" "#PWR0127"
+			(at 55.88 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3_VDD"
+			(at 43.942 141.986 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 52.07 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74fdc84c-533f-4f8e-9e81-de2d0acce9e3")
+		)
+		(instances
+			(project "ThingsCore-1"
+				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/992f1809-ba75-41aa-9652-2a2392b25d6d"
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -8451,73 +8575,6 @@
 			(project "ThingsCore-1"
 				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/992f1809-ba75-41aa-9652-2a2392b25d6d"
 					(reference "#PWR0121")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 52.07 142.24 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7056c45c-4147-4487-b245-40a9dfd77520")
-		(property "Reference" "#PWR0127"
-			(at 45.72 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 46.99 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21dea2d2-c61f-41d1-b518-40c18a5493c1")
-		)
-		(instances
-			(project "ThingsCore-1"
-				(path "/0e14d4aa-2dd0-4b28-ae35-43afd1798b30/992f1809-ba75-41aa-9652-2a2392b25d6d"
-					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
